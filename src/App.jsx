@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Formulario from "./components/Formulario";
 import Infos from "./components/Infos";
-import styles from "./main.module.scss";
+import styles from "./";
 
 function App() {
   const [heigth, setHeigth] = useState("");
