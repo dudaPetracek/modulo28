@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Formulario from "./components/Formulario";
 import Infos from "./components/Infos";
-import styles from "./";
+import styles from "./main.css";
 
 function App() {
   const [heigth, setHeigth] = useState("");
@@ -59,7 +59,7 @@ function App() {
     setClassificationClass(classificationClass);
   };
   return (
-    <div className={`${styles.container} container mt-5 p-5 rounded`}>
+    <div className={`${styles.container}container mt-5 p-5 rounded`} style= "background-color: #9ACBD0;">
       <h1>Calcule o seu IMC com react...</h1>
       Bem-vindo ao nosso site! Aqui, você pode calcular o seu Índice de Massa
       Corporal (IMC) com facilidade, apenas informando sua altura e peso. Nosso
